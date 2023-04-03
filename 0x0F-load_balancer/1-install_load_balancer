@@ -41,7 +41,7 @@ defaults
 
 frontend clickviral.tech-frontend
     bind *:80
-    default_backend th3gr00t-tech-backend
+    default_backend clickviral-backend
 
 backend clickviral.tech-backend
     balance roundrobin
